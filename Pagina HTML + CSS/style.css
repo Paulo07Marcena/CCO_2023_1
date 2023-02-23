@@ -1,0 +1,163 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  font-size: 15px;
+}
+.container{
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.header{
+  min-height: 100px;
+  width: 100% ;
+  background-color: #312f2f;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.logo-onebitcode{
+  height: auto;
+  width: 250px;
+}
+.buttons{
+  min-width: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.button{
+  color:white;
+  font-size: 15px;
+  padding: 15px;
+  margin: 5px;
+  background-color: transparent;
+  border: none black 2px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: 0.7s;
+}
+.button:hover{
+  border: black solid 4px;
+  border-radius: 15px;
+}
+.section{
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  width: 100%;
+}
+.abertura{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+}
+.categorias-total{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.categorias-principais{
+  display: grid;
+  grid-template-areas: 
+  "card1 card2 card3"
+  "card4 card5 card6"
+  "card7 card8 card9";
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 250px;
+  height: auto;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 1s;
+}
+.card:hover{
+  border: black solid 1px;
+  border-radius: 10px;
+}
+.card-img{
+  width: auto;
+  height: 125px;
+  border-radius: 10px;
+}
+.card1{
+  grid-area: card1;
+}
+.card2{
+  grid-area: card2;
+}
+.card3{
+  grid-area: card3;
+}
+.card4{
+  grid-area: card4;
+}
+.card5{
+  grid-area: card5;
+}
+.card6{
+  grid-area: card6;
+}
+.card7{
+  grid-area: card7;
+}
+.card8{
+  grid-area: card8;
+}
+.card9{
+  grid-area: card9;
+}
+.categorias-extras{
+  height: auto;
+  width: 230px;
+  background-color: #312f2f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  border-radius: 10px;
+}
+.card-extra{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+}
+.img-extra{
+  width: auto;
+  height: 100px;
+  border-radius: 10px;
+}
+.footer{
+  min-height: 75px;
+  width: 100% ;
+  background-color: #312f2f;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+a{
+  color: white;
+  text-decoration: none;
+
+}
+
