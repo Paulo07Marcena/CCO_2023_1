@@ -1,0 +1,1 @@
+Comando para ver dados do user.name: git config --global user.name 'Nome'
