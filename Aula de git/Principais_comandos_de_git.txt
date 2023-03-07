@@ -1,4 +1,0 @@
-Comando para ver dados do user.name: git config --global user.name 'Nome'
-Comando para ver dados do user.email: git config --global use.email 'email'
-Comando para retirar user.name: git config --global --unset user.name
-Comando para retirar user.email: git config --global --unset user.email
